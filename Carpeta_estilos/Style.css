@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    height: 100%;
+}
+
+
+body {
+    background-color: #B7C4CF;
+    font-family: 'Playfair Display', serif;
+    font-size: auto;
+    min-height: 100%;
+}
+
+.grid-container> * {
+    box-shadow: -1px 1px 7px 0px rgb(0, 0, 0, 0.75);
+    border-end-end-radius: 4px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header div #cambioLogo {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+
+    
+
+}
+
+
+
+h1{
+    padding: 30px;
+    font-size: 45px;
+    background-color: gray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 15px;
+}
+
+
+h2{
+    padding: 30px;
+    margin-top: 15px;
+    margin-block-end: 10px;
+    font-size: 25px;
+    background-color: lightslategray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#cambiosFormulario {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    color: bisque;
+    background-color: black;
+    margin-top: 2%;
+    padding: 2%;
+                 
+}
+
+
+h3 {
+    padding: 20px;
+    font-size: 20px;
+   
+    
+}
+
+footer {
+    background-color: gray;
+    height: 40px;
+    padding: 40px;
+    margin-top: 15px;
+
+}
+
+
+
+@media screen and (min-width: 760px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px;
+        grid-column-gap: 0px;
+        grid-row-gap: 5px;
+        grid-template-areas: 
+          "header header header"
+          "navbar navbar navbar"
+          "sidebar sidebar sidebar"
+          "main    main    main"
+          "footer  footer footer";
+    
+        
+    }
+    
+    header {
+        background-image: url(https://img.freepik.com/foto-gratis/textura-oscura-acuarela_125540-769.jpg?t=st=1651614348~exp=1651614948~hmac=9ee9069597969ab0827fefddebb55a3e38025b978cb96c959efd72eb6e019a23&w=1060);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height:100%; 
+        border: 5px black;
+        border-width: 5px;
+        border-color: grey;
+        border-style: groove;
+        margin-block-end: 10px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+
+    .centrarVideo{
+        margin-top: 15px;
+        margin-block-end: 15px;
+        display: flex;
+        justify-content: center;
+        background-image: url(https://img.freepik.com/foto-gratis/textura-oscura-acuarela_125540-769.jpg?t=st=1651614348~exp=1651614948~hmac=9ee9069597969ab0827fefddebb55a3e38025b978cb96c959efd72eb6e019a23&w=1060);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    div ol li {
+        font-family: 'Source Serif Pro', serif;
+        font-size: 20px;
+        background-color: lightgrey;
+    
+    
+    }
+
+    #productos{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 1155px;
+        height: auto;
+        margin-top: 100px;
+        margin-block-end: 85px;
+        padding: auto;
+        background-color: #1C3879;
+        border: 5px black;
+        border-color: #B7C4CF;
+        border-style:groove;
+    }
+
+    .buzo_uno{
+        width: 60%;
+        padding: auto;
+        height: auto;
+    }
+
+    .btn_buzo{
+        background-color: gray;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 5px black;
+        border-color: black;
+        border-style:groove;
+    }
+
+    .imagenesFooter{
+        width: 0,5%;
+        padding: auto;
+        height: auto;
+
+    }
+   
+    
+    
+   
+   
+} 

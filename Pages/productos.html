@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+
+    <!--link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!--Link hoja de estilos-->
+    <link rel="stylesheet" href="../Carpeta_estilos/Style.css">
+
+    <!--Link de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="grid-container"> <!--Agregar grid en esta pagina-->
+
+    <header class="header">
+        
+        <div> <!--Imagen de logo; modificación fondo por alguna transformación-->
+           
+            <a href="../index.html"> <img src="../Imagenes/logo.jpeg" alt="logo marca" id="cambioLogo"> </a>
+        
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Amarre</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/productos.html">Productos</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/terminos.html">Terminos y condiciones</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/contacto.html">Contactos</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/pagosenvios.html">Pagos y Envios</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          
+        </nav>
+    
+    </header>
+    
+    <main> <!--Coloco un producto con grid-->
+        <div>
+            <h1>Productos</h1>
+
+            <div id="productos">
+     
+                <div>
+                   
+                   <img src= "../Imagenes/buzouno.jpeg" alt="Buzo liso" class="buzo_uno">
+           
+                </div>
+               
+               <div class="texto_buzo">
+                   <h3>Buzo Negro Liso talle XL</h3>
+                   <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, explicabo. Debitis tenetur assumenda ipsa qui praesentium sapiente aperiam magnam enim!</span>
+                   <span><h4>Precio Final= $2.500</h4></span>
+               
+                </div>
+               
+                <div class="btn_buzo">
+    
+                  <a href="#">Comprar</a>
+           
+                </div>
+
+            </div>
+
+        
+        </div>
+        
+    </main>
+
+    <footer> <!--Cambiar fondo-->
+        <div>
+            <h3><strong>Visitanos tambien en:</strong></h3>
+
+            <img src="../Imagenes/logo-insta.png" alt="link instagram" class="imagenesFooter">
+
+            <img src="../Imagenes/logo-face.png" alt="link facebook" class="imagenesFooter">
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    
+    
+    <!--Link JS de bootstrap-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
